@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: center; */
+    /* background-color:; */
+}
+
+::placeholder {
+    color: #3C3C3C;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+
+}
+
+section {
+    width: 375px;
+    height: 812px;
+    /* border: 1px solid red; */
+    position: relative;
+    border-radius: 20px;
+    background-color: #fff;
+
+}
+
+.yellow-circle {
+    /* width: 40%; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-radius: 20px 0;
+}
+
+.back-button {
+    position: absolute;
+    z-index: 3;
+    left: 30px;
+    top: 30px;
+}
+
+.blue-circle {
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+.pale-yellow-circle {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    border-radius: 0 20px;
+}
+
+h1 {
+    position: absolute;
+    top: 132px;
+    left: 32px;
+    z-index: 2;
+    color: #fff;
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+
+}
+
+section .mid {
+    margin-top: 105%;
+}
+
+section .mid input {
+
+    padding: 15px;
+    margin: 20px 20px 0;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    width: 80%;
+   
+
+}
+
+
+.sign-in {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    align-items: center;
+}
+.sign-in button {
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 100px 30px;
+
+}
+
+.bottom button {
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        background-color: transparent;
+        font-weight: 800;
+        font-size: 18px;
+    
+}
+
+
+
+.bottom .sign-bottom {
+    background: url("./images/yellow-rectangle.svg");
+    background-size: 100px 40px;
+    padding: 0 7px;
+
+}
